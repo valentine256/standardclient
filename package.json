@@ -4,5 +4,22 @@
   "description": "client standard",
   "main": "index.js",
   "author": "valentine256",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build tsconfig.json && yarn run tslint",
+    "start": "webpack",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.16",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
 }

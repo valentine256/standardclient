@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "allowJs": true,
+      "target": "es5",
+      "removeComments": true,
+      "sourceMap": true,
+      "jsx": "react",
+      "lib": [ "es2018", "dom" ]
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}
